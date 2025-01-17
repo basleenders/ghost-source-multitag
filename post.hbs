@@ -8,13 +8,14 @@
     <article class="gh-article {{post_class}}">
 
         <header class="gh-article-header gh-canvas">
-
             {{#if tags}}
+                <div class='gh-article-tags'>
                 {{#foreach tags}}
-                    <a class="gh-article-tag" href="{{url}}" title="{{name}}">{{name}}</a>
+                    <a class="gh-article-tag" href="{{url}}" title="{{name}}">{{slug}}</a>
                 {{/foreach}}
+                </div>
             {{/if}}
-            
+
             <h1 class="gh-article-title is-title">{{title}}</h1>
             {{#if custom_excerpt}}
                 <p class="gh-article-excerpt is-body">{{custom_excerpt}}</p>

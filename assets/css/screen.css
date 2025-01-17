@@ -1970,11 +1970,15 @@ Search                         LOGO                    Login Subscribe
 
 .gh-article-tag {
     margin-bottom: 12px;
+    margin-right: 1em;
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 0.01em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: var(--ghost-accent-color);
+} 
+.gh-article-tag::before {
+    content: "#";
 }
 
 .gh-article-title {
