@@ -1,6 +1,6 @@
-# Source
+# Source Multitag
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Source! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Source/releases) page.
+My personal fork of the default theme for [Ghost](http://github.com/tryghost/ghost/). The only purpose of this fork is to display multiple tags on Post pages. I will try to keep in in sync as much as I can.
 
 &nbsp;
 
