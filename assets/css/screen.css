@@ -2057,8 +2057,9 @@ html.gh-navigation-open {
     margin-right: 0.6rem;
 }
 .l-tags-container {
-    text-align: center;
+    text-align: justify;
     line-height: 3.6rem;
+    margin-right: 0.4rem;
 }
 
 .gh-article-title {
