@@ -1983,6 +1983,9 @@ Search                         LOGO                    Login Subscribe
 .l-tags-container .gh-article-tag {
     font-size: 100%;
 }
+.l-tags-container {
+    text-align: center;
+}
 
 .gh-article-title {
     font-size: calc(clamp(3.4rem, 1.36vw + 2.85rem, 4.6rem) * var(--factor, 1));
