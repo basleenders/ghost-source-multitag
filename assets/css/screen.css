@@ -1973,18 +1973,21 @@ Search                         LOGO                    Login Subscribe
     margin-right: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
     text-transform: lowercase;
     color: var(--ghost-accent-color);
+    text-wrap: nowrap;
 } 
 .gh-article-tag::before {
     content: "#";
 }
 .l-tags-container .gh-article-tag {
+    text-decoration: none;
+    vertical-align: sub;
     font-size: 100%;
 }
 .l-tags-container {
     text-align: center;
+    line-height: 3.6rem;
 }
 
 .gh-article-title {
