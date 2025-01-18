@@ -995,8 +995,12 @@ html.gh-navigation-open {
     margin-bottom: 4px;
     font-size: 1.2rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    color: var(--ghost-accent-color);
+    text-wrap: nowrap;
+} 
+.gh-card-tag::before {
+    content: "#";
 }
 
 .gh-card-title {
@@ -2036,11 +2040,25 @@ html.gh-navigation-open {
 
 .gh-article-tag {
     margin-bottom: 12px;
+    margin-right: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: var(--ghost-accent-color);
+    text-wrap: nowrap;
+} 
+.gh-article-tag::before {
+    content: "#";
+}
+.l-tags-container .gh-article-tag {
+    text-decoration: none;
+    vertical-align: sub;
+    font-size: 100%;
+    margin-right: 0.6rem;
+}
+.l-tags-container {
+    text-align: center;
+    line-height: 3.6rem;
 }
 
 .gh-article-title {
