@@ -1984,11 +1984,11 @@ Search                         LOGO                    Login Subscribe
     text-decoration: none;
     vertical-align: sub;
     font-size: 100%;
+    margin-right: 0.6rem;
 }
 .l-tags-container {
-    text-align: justify;
+    text-align: center;
     line-height: 3.6rem;
-    margin-right: 0.4rem;
 }
 
 .gh-article-title {

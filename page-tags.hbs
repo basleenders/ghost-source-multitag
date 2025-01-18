@@ -25,7 +25,7 @@
             <div class="l-tags-container">
                 {{#get 'tags' limit='all' include='count.posts'}}
                 {{#foreach tags}}
-                    <span style="font-size: calc({{ count.posts }}em/12 + 0.7em);">
+                    <span style="font-size: calc({{ count.posts }}em/14 + 0.7em);">
                         <a class="gh-article-tag" href="{{url}}" title="{{plural count.posts empty=(t "Nothing") singular=(t "Just 1 post") plural=(t "All % posts")}} on {{name}}">{{slug}}</a> 
                     </span>
                     {{else}}
