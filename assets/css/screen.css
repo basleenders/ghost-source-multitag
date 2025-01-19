@@ -929,8 +929,12 @@ Search                         LOGO                    Login Subscribe
     margin-bottom: 4px;
     font-size: 1.2rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    color: var(--ghost-accent-color);
+    text-wrap: nowrap;
+} 
+.gh-card-tag::before {
+    content: "#";
 }
 
 .gh-card-title {
